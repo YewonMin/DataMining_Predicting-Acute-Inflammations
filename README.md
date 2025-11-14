@@ -36,14 +36,14 @@ jupyter notebook Predicting_AcuteInflammations.ipynb
 
 | **Variable Name** | 	**Role** |	 **Type**  |
 |-------------------|-----------|------------|
-|`temperature`	     |Feature|	Continuous  |		
-|`nausea`	          |Feature|	Categorical	|	
-|`lumbar-pain`      |	Feature|	Categorical|			
-|`urine-pushing`    |	Feature|	Categorical|		
-|`micturition-pains`|	Feature|	Categorical|		
-|`burning-urethra`  |	Feature|	Categorical|			
-|**bladder-inflammation**|	**Target**|	Categorical|		
-|**nephritis**        |	**Target**	|Categorical	|
+|`temperature`	     |Feature |	Continuous  |		
+|`nausea`	          |Feature |	Categorical	|	
+|`lumbar-pain`      |	Feature|	Categorical |			
+|`urine-pushing`    |	Feature|	Categorical |		
+|`micturition-pains`|	Feature|	Categorical |		
+|`burning-urethra`  |	Feature|	Categorical |			
+|`bladder-inflammation`|	**Target**|	Categorical|		
+|`nephritis`        |	**Target**	|Categorical	|
 
 #### Preprocessing
 * temperature: normalization from 0 to 1
@@ -77,7 +77,7 @@ jupyter notebook Predicting_AcuteInflammations.ipynb
 | Model | Best Params | Accuracy | F1_Score |
 | ------ | ---------- | -------- | -------- |
 | Decision Tree | max_depth=3, min_samples_split=2 | 0.98 | 0.98 |
-| Logistic Regression | C=0.O1 | 1.00 | 1.00 |
+| Logistic Regression | C=0.01 | 1.00 | 1.00 |
 | Random Forest | max_features=auto, n_estimators=10 | 0.98 | 0.98 |
 | Gradient Boosting | learning_rate=0.01, max_depth=3, n_estimators=50 | 0.98 | 0.98 |
 | Naive Bayes | - | 0.98 | 0.94 |
