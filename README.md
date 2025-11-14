@@ -56,8 +56,6 @@ jupyter notebook Predicting_AcuteInflammations.ipynb
 * Relative Frequency Histogram
 <img width="1209" height="1222" alt="image" src="https://github.com/user-attachments/assets/4db054f9-b929-4213-a75c-321874733bac" />
 
-
-
 * Target Variable Analysis
   * Heatmap: Acute Inflammations for variables
   <img width="1098" height="386" alt="image" src="https://github.com/user-attachments/assets/3acfd894-8f56-476a-ba47-2c82a95cb4f0" />
@@ -72,7 +70,7 @@ jupyter notebook Predicting_AcuteInflammations.ipynb
 ## Evaluation
 * Training:Test = 80:20
 * Cross-validation: `StratifiedKFold`, `n_split = 5`, `shuffling`
-* Overall Results
+#### Overall Results
 
 | Model | Best Params | Accuracy | F1_Score |
 | ------ | ---------- | -------- | -------- |
