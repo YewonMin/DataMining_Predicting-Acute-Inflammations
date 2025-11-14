@@ -1,4 +1,4 @@
-<img width="241" height="70" alt="image" src="https://github.com/user-attachments/assets/96247dad-656d-4d7f-ae84-d6d0cb79d795" /><img width="136" height="70" alt="image" src="https://github.com/user-attachments/assets/044dd791-71f7-4006-b5f5-39ade88fd511" /># DataMining - Predicting Acute Inflammations
+# DataMining - Predicting Acute Inflammations
 This repository aims to **predict acute inflammations** using clinical features through a full data-science pipeline in Python.
 
 It demonstrates strong competency in **data visualization**, exploratory data analysis (EDA), model training and evaluation on real-world biomedical data.
@@ -29,7 +29,7 @@ jupyter notebook Predicting_AcuteInflammations.ipynb
 
 
 ## Dataset
-#### `acute_inflammations.csv`
+[acute_inflammations.csv](https://github.com/YewonMin/DataMining_Predicting-Acute-Inflammations/blob/main/acute_inflammations.csv)
 * The number of row: 120
 * 6 Features
 * 2 Target(Binary classification): bladder-inflammation / nephritis
@@ -73,6 +73,7 @@ jupyter notebook Predicting_AcuteInflammations.ipynb
 * Training:Test = 80:20
 * Cross-validation: `StratifiedKFold`, `n_split = 5`, `shuffling`
 * Overall Results
+
 | Model | Best Params | Accuracy | F1_Score |
 | ------ | ---------- | -------- | -------- |
 | Decision Tree | max_depth=3, min_samples_split=2 | 0.98 | 0.98 |
@@ -81,6 +82,7 @@ jupyter notebook Predicting_AcuteInflammations.ipynb
 | Gradient Boosting | learning_rate=0.01, max_depth=3, n_estimators=50 | 0.98 | 0.98 |
 | Naive Bayes | - | 0.98 | 0.94 |
 | K-Nearest Neighbors | n_neighbors=3, weights=uniform | 1.00 | 1.00 |
+
 #### Visualization
 * F1 Score Comparison
 <img width="850" height="648" alt="image" src="https://github.com/user-attachments/assets/e88cb632-ca3f-4612-9f30-8baafbe77861" />
@@ -96,5 +98,5 @@ jupyter notebook Predicting_AcuteInflammations.ipynb
 ## Conclusion
 * This project conducted Python-based EDA, visualization, and multi-model evaluation to predict acute inflammations.
 * Across analyses, the `Urine` feature emerged as the most influential factor in identifying acute cystitis.
-* Most models, including Logistic Regression and KNN, achieved perfect accuracy (1.00), indicating that the dataset is highly separable.
+* Most models, including `Logistic Regression` and `KNN`, achieved perfect accuracy (1.00), indicating that the dataset is highly separable.
 * Overall, the project provides analytical support for designing an expert-system algorithm capable of performing preliminary diagnostic estimation for urological conditions.
